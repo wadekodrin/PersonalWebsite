@@ -1,0 +1,261 @@
+/*#tag, .class
+anchor tags
+*/
+
+body, html {
+    height: 100%;
+    font-family: 'Nanum Gothic', sans-serif;;
+}
+
+/* The hero image */
+.hero-image {
+    /* The image used */
+    background-image: url("jacksonsquare.jpg");
+
+    /* Set a specific height */
+    height: 50%;
+
+    /* Position and center the image to scale nicely on all screens */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    margin-bottom: 20px;
+    margin-top: 0;
+}
+
+/* Place text in the middle of the image */
+.hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+  	}
+
+.hero-text h1{
+  font-size: 4vmin;
+  font-weight: 700;
+  margin: 0;
+}
+.hero-text h2 {
+	font-size: 3vmin;
+  margin: 0 0 20px;
+}
+
+.icon {
+	align-items: center
+}
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+}
+
+header {
+  padding: 20px 0;
+}
+
+header .row,
+footer .row {
+  display: flex;
+  align-items: center;
+}
+
+header h1 {
+  font-weight: 700;
+  margin: 0;
+}
+
+header nav {
+  display: flex;
+  justify-content: flex-end;
+}
+
+header p {
+  padding: 0 20px;
+  margin: 0;
+  font-size: 1.5vmax;
+}
+
+.jumbotron {
+	text-align: center;
+	display: flex;
+	align-items: center;
+	background-image: url('https://scontent-dfw5-2.cdninstagram.com/vp/f59f8bb0d2eff8a75e1e637307812b0d/5B8C3346/t51.2885-15/s640x640/sh0.08/e35/28752918_167132324008690_2698270584751521792_n.jpg');
+	background-size: cover;
+	color: #ffffff;
+	height: 500px;
+	text-shadow: 0.25px 0.25px 0.25px #000000;
+}
+
+.jumbotron h2 {
+  font-size: 60px;
+  font-weight: 700;
+  margin: 0;
+  color: #fff;
+}
+.Tulanep,
+.LSUp,
+.SCSp,
+.BPIp,
+.FEMAp,
+.FAp,
+.MTp,
+.SCUBAp,
+.plexosp,
+.mirp,
+.USAGp,
+.ostrdp,
+.tulp,
+.NOHSEPp
+ {
+  display: none;
+}
+
+.Tulane:hover,
+.LSU:hover,
+.SCS:hover,
+.BPI:hover,
+.FEMA:hover,
+.FA:hover,
+.MT:hover,
+.SCUBA:hover,
+.plexos:hover,
+.mir:hover,
+.USAG:hover,
+.ostrd:hover,
+.tul:hover,
+.NOHSEP:hover {
+color: darkgrey;
+cursor: pointer; 
+} 
+
+.jumbotron h3 {
+  margin: 0 0 20px;
+  color: #fff;
+}
+
+section .row img {
+  margin: 0 0 30px;
+  width: 100%;
+}
+
+.col-md-6 {
+  margin: 0 0 30px;
+}
+.col-sm-6 p {
+	font-size: 2vmax;
+}
+
+.content h1 {
+	font-size: 3vmax;
+	font-weight: 700;
+	
+}
+
+.content h2 {
+	font-size: 2vmax;
+	font-weight: 700;
+	margin-bottom: 1vmax;
+}
+
+.content p {
+	font-size: 1.5vmax;
+}
+
+.experience p {
+	margin-bottom: 2vmax; 
+}
+.skills,
+.experience,
+.projects,
+.awards{
+	margin: 10px;
+}
+.skills h2,
+.experience h2 {
+	margin-top: 2vmax;
+}
+.list-group-item {
+	border: none;
+	font-size: 1.5vmax;
+	padding-right: 0;
+	padding-left: 0;
+}
+
+.educationrow {
+  margin-top:1vmax;
+  margin-bottom:1vmax;
+}
+
+footer {
+  font-size: 1vmax;
+  padding: 20px 0;
+}
+
+footer .col-sm-8 {
+  display: flex;
+  justify-content: flex-end;
+}
+
+footer ul {
+  list-style: none;
+}
+
+footer li img {
+  width: 32px;
+  height: 32px;
+
+}
+a.navlink {
+  color:black;
+  
+}
+a.navlink:hover, a.navlink:active {color: blue;}
+
+
+/*@media only screen and (max-width: 768px) {
+
+  .hero-text h1 {
+    font-size: 4vmax;
+    font-weight: 700;
+    margin: 0;
+  }
+  .hero-text h2 {
+    font-size: 3vmax;
+    margin: 0 0 20px;
+  }
+
+  header p {
+    padding: 0 20px;
+    margin: 0;
+    font-size: 1.5vmax;
+  }
+
+  .col-sm-6 p {
+    font-size: 2vmax;
+  }
+
+  .content h1 {
+    font-size: 3vmax;
+    font-weight: 700;
+    
+  }
+
+  .content h2 {
+    font-size: 2vmax;
+    font-weight: 700;
+    margin-bottom: 1vmax;
+  }
+
+  .content p {
+    font-size: 1.5vmax;
+  }
+
+  footer {
+    font-size: 1vmax;
+    padding: 20px 0;
+  }
+
+}*/
